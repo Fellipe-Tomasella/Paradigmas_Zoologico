@@ -31,4 +31,9 @@ class Animal {
             System.out.println("Tratador: nenhum");
         }
     }
+
+    // Usado pelos JComboBox da interface gráfica para mostrar o animal de forma legível
+    public String toString() {
+        return "ID " + id + " - " + nome + " (" + especie + ")";
+    }
 }
